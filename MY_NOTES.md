@@ -9,3 +9,7 @@
 6) SonarQube server uses Adoptium to install a JDK; however, it is installable without Adoptium on Amazon Linux.
 7) The link for downloading SonarQube is invalid; I had to download version 26. This version needs Java 21, not 17.
 8) "Enable local webhooks validation" setting should be unset in order to allow webhook creation within the VPC.
+9) The lombrok version is too old and had to be changed in pom.xml
+10) Of course, AWS CLI is already installed on an Amazon Linux instance.
+11) eksctl moved to another repository(eksctl-io instead of weaveworks).
+12) 
